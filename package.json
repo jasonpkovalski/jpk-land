@@ -1,9 +1,9 @@
 {
   "name": "jpk-landing-site",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "JPK Landing Site",
-  "author": "jasonpkovalski",
+  "author": "jasonpkovalski@gmail.com",
   "keywords": [
     "gatsby"
   ],
@@ -15,9 +15,16 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@mdi/js": "^6.5.95",
+    "@mdi/react": "^1.5.0",
     "gatsby": "^4.4.0",
     "gatsby-plugin-google-analytics": "^4.4.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "gatsby-plugin-postcss": "^5.4.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7"
   }
 }
